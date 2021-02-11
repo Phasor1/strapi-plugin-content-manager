@@ -34,7 +34,7 @@ const EditorWrapper = styled.div`
   }}
 
   .controlsContainer {
-    display: flex;
+    display: none;
     box-sizing: border-box;
     background-color: #f3f4f4;
 
