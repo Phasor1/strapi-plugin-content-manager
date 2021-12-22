@@ -309,7 +309,7 @@ function ListView({
         method: 'DELETE',
       });
 
-      strapi.notification.toggle(config);(`${pluginId}.success.record.delete`);
+      strapi.notification.success(config);(`${pluginId}.success.record.delete`);
 
       // Close the modal and refetch data
       onDeleteDataSucceeded();
