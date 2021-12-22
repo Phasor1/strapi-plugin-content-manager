@@ -453,7 +453,7 @@ const EditViewDataManagerProvider = ({
         dispatch({
           type: 'SUBMIT_SUCCESS',
         });
-        strapi.notification.success(`${pluginId}.success.record.save`);
+        strapi.notification.toggle(config);(`${pluginId}.success.record.save`);
 
         setIsCreatingEntry(false);
 
@@ -542,7 +542,7 @@ const EditViewDataManagerProvider = ({
           type: 'PUBLISH_SUCCESS',
           data,
         });
-        strapi.notification.success(`${pluginId}.success.record.publish`);
+        strapi.notification.toggle(config);(`${pluginId}.success.record.publish`);
       } catch (err) {
         // ---------- @Soupette Is this error handling still mandatory? ----------
         // The api error send response.payload.message: 'The error message'.
@@ -608,7 +608,7 @@ const EditViewDataManagerProvider = ({
         type: 'UNPUBLISH_SUCCESS',
         data,
       });
-      strapi.notification.success(`${pluginId}.success.record.unpublish`);
+      strapi.notification.toggle(config);(`${pluginId}.success.record.unpublish`);
     } catch (err) {
       console.error({ err });
       setStatus('resolved');
