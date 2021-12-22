@@ -1,6 +1,6 @@
 {
-  "_from": "strapi-plugin-content-manager@3.2.5",
-  "_id": "strapi-plugin-content-manager@3.2.5",
+  "_from": "strapi-plugin-content-manager@3.3.0",
+  "_id": "strapi-plugin-content-manager@3.3.0",
   "_inBundle": false,
   "_integrity": "sha512-zoH3Jbz9SizZ5ZGnc4ziaTUCB228nINwLlitfithbkrx0m9g8jRbPWpzJvA/H+jthpAFyb9ZxjdAUjIy3oaQvA==",
   "_location": "/strapi-plugin-content-manager",
@@ -12,19 +12,19 @@
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "strapi-plugin-content-manager@3.2.5",
+    "raw": "strapi-plugin-content-manager@3.3.0",
     "name": "strapi-plugin-content-manager",
     "escapedName": "strapi-plugin-content-manager",
-    "rawSpec": "3.2.5",
+    "rawSpec": "3.3.0",
     "saveSpec": null,
-    "fetchSpec": "3.2.5"
+    "fetchSpec": "3.3.0"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/strapi-plugin-content-manager/-/strapi-plugin-content-manager-3.2.5.tgz",
+  "_resolved": "https://registry.npmjs.org/strapi-plugin-content-manager/-/strapi-plugin-content-manager-3.3.0.tgz",
   "_shasum": "5cbd8befc6f2bdfb841e91cbdf0008971df965fe",
-  "_spec": "strapi-plugin-content-manager@3.2.5",
+  "_spec": "strapi-plugin-content-manager@3.3.0",
   "_where": "C:\\Users\\Davide\\Desktop\\Lavoro\\Dotdotdot\\ENEL\\enel_game\\Repos\\enel_energy_remix_web_CMS",
   "author": {
     "name": "Strapi team",
@@ -72,8 +72,8 @@
     "redux-immutable": "^4.0.0",
     "reselect": "^4.0.0",
     "sanitize-html": "2.1.1",
-    "strapi-helper-plugin": "3.2.5",
-    "strapi-utils": "3.2.5",
+    "strapi-helper-plugin": "3.3.0",
+    "strapi-utils": "3.3.0",
     "yup": "^0.27.0"
   },
   "deprecated": false,
@@ -103,5 +103,5 @@
     "description": "content-manager.plugin.description",
     "required": true
   },
-  "version": "3.2.5"
+  "version": "3.3.0"
 }
