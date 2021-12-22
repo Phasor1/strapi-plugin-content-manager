@@ -47,7 +47,7 @@ const DeleteLink = ({
         method: 'DELETE',
       });
 
-      strapi.notification.success(config);(`${pluginId}.success.record.delete`);
+      strapi.notification.success(`${pluginId}.success.record.delete`);
 
       emitEvent('didDeleteEntry', trackerProperty);
 
